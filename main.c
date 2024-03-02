@@ -63,7 +63,7 @@ int main(){
                 printf("\n\n");
             }
             
-            Masuk ke menu bilangan prima
+            // Masuk ke menu bilangan prima
             if (jenismenu==2){
                 int cekprima =0;
                 printf("\nDeret Bilangan Prima\n\n");
