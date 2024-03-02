@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n-2\r\n3\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n-2 -1 0 1 2 3 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2\r\n1\r\n15\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Prima\r\n\r\n2 3 5 7 11 13 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "3\r\n4\r\n24\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Fibonacci\r\n\r\n5 8 13 21 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5\r\n1\r\n5\r\n2\r\n1\r\n1\r\n3\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nInput pada program salah!\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nInput pada program salah!\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n1 2 3 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n1\r\n10\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n1 2 3 4 5 6 7 8 9 10 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2\r\n10\r\n30\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Prima\r\n\r\n11 13 17 19 23 29 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2\r\n1\r\n20\r\n2\r\n20\r\n40\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Prima\r\n\r\n2 3 5 7 11 13 17 19 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Prima\r\n\r\n23 29 31 37 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n3\r\n5\r\n1\r\n6\r\n5\r\n1\r\n8\r\n11\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n3 4 5 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nInput pada program salah!\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n8 9 10 11 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "3\r\n10\r\n40\r\n3\r\n1\r\n8\r\n1\r\n1\r\n5\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Fibonacci\r\n\r\n13 21 34 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Fibonacci\r\n\r\n1 1 2 3 5 8 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n1 2 3 4 5 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n1\r\n10\r\n2\r\n1\r\n10\r\n3\r\n1\r\n10\r\n4",
+      "output": "PROGRAM BILANGAN\r\n1. Bilangan Bulat\r\n2. Bilangan Prima\r\n3. Bilangan Fibonacci\r\n4. Exit\r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Bulat\r\n\r\n1 2 3 4 5 6 7 8 9 10 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Prima\r\n\r\n2 3 5 7 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nMasukkan bilangan awal: Masukkan bilangan akhir: \r\nDeret Bilangan Fibonacci\r\n\r\n1 1 2 3 5 8 \r\n\r\nMasukkan jenis bilangan yang diinginkan: \r\nProgram selesai",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    }
+  ]
+}
