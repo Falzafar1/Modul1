@@ -64,24 +64,24 @@ int main(){
             }
             
             // Masuk ke menu bilangan prima
-            if (jenismenu==2){
-                int cekprima =0;
-                printf("\nDeret Bilangan Prima\n\n");
-                // Mengecek satu per satu setiap bilangan apakah memiliki lebih dari 1 faktor atau tidak
-                for (i=batasawal; i<batasakhir+1; i++){
-                    for (j=2; j<(i+1); j++){
-                        if ((i%j)==0){
-                            cekprima +=1;
-                        }
-                    }
-                    if (cekprima == 1){
-                        printf("%d ",i);
-                    }
-                    cekprima=0;
-                }
-                printf("\n\n");
-                i=j=0;
-            }
+            // if (jenismenu==2){
+            //     int cekprima =0;
+            //     printf("\nDeret Bilangan Prima\n\n");
+            //     // Mengecek satu per satu setiap bilangan apakah memiliki lebih dari 1 faktor atau tidak
+            //     for (i=batasawal; i<batasakhir+1; i++){
+            //         for (j=2; j<(i+1); j++){
+            //             if ((i%j)==0){
+            //                 cekprima +=1;
+            //             }
+            //         }
+            //         if (cekprima == 1){
+            //             printf("%d ",i);
+            //         }
+            //         cekprima=0;
+            //     }
+            //     printf("\n\n");
+            //     i=j=0;
+            // }
             
             // Masuk ke menu bilangan fibonachi
             if (jenismenu==3){
